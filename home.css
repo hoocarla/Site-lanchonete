@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: #F4B607;
+    padding: 100px 0;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.caixa img {
+    border-radius: 50%;
+}
+body {
+    background: #000000;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 1x;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #8C0402;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #D97F0C;
+    text-decoration: underline;
+}
+
+.principal {
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+.titulo-centralizado {
+    text-align: center;
+    margin: 10px;
+}
+
+p {
+    margin: 10px;
+    text-align: center;
+}
+
+#missao {
+    font-size: 18px;
+}
+
+.strong {
+    color: #F4B607
+}
+
+.diferenciais {
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: end;
+    margin: 10px;
+
+}
+
+.itens {
+    font-style: italic;
+    width: 20%;
+    margin: 10px;
+    text-align: left;
+}
+
+.imagematendimento {
+    width: 20%;
+    margin: auto;
+    padding: 20px;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 2px solid #F4B607;
+    border-radius: 10px;
+}
+
+footer{
+    text-align: center;
+    background: #D97F0C;
+    padding: 40px 0;
+}
+
+footer img {
+    border-radius: 50%;
+    height: 120px;
+}
+
+.copyrigth {
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px;
+}
